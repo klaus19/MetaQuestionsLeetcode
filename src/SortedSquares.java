@@ -22,9 +22,11 @@ public class SortedSquares {
 
     }
 
+
     public static void main(String[] args) {
         SortedSquares st = new SortedSquares();
         int[]a = new int[]{-4,-1,0,3,10};
         System.out.println(Arrays.toString(st.getSquares(a))); //IMP
+
     }
 }
